@@ -95,5 +95,6 @@ input[type="radio"]:checked + label span {
     height: 12px;
     background-color: #FF0D90; 
     border: 4px solid #e0e0e0; 
+    
 } 
 

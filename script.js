@@ -73,6 +73,7 @@ function startGame(){
     let snakeX = snake[0].x;
     let snakeY = snake[0].y;
 
+    
     switch (direction){
         case "right": snakeX += box; break;
         case "left": snakeX -= box; break;
