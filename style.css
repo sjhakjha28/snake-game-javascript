@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Zen Dots', cursive;
+    background-color: gray;
+}
+
+h1{
+    font-weight: 700; 
+    background-color: white;
+    width: 30%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 5px 5px black;
+}
+
+h1:hover{
+    box-shadow: none;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+}
+
+div{
+    margin: 5px;
+}
+
+#niveis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 30px;
+}
+
+canvas{
+    box-shadow: 15px 15px black;
+    border-bottom: 4px solid #ccc;
+    border-right: 4px solid #ccc;
+    display: block;
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#pontos{
+    background-color: #b9a8f0;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    line-height: 30px;
+    display: block;
+    margin: auto;
+    box-shadow: 5px 5px black;
+}
+
+#pontos:hover{
+    box-shadow: none;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+}
+
+input[type="radio"] { 
+    display: none; 
+} 
+
+input[type="radio"] + label { 
+    font-size: 15px; 
+    cursor: pointer;
+} 
+
+input[type="radio"] + label span { 
+    display: inline-block; 
+    width: 16px; 
+    height: 16px; 
+    vertical-align: middle; 
+    cursor: pointer; 
+    border-radius: 50%; 
+    border: 1px solid #cccccc; 
+    margin-right: 10px;
+} 
+
+
+input[type="radio"]:checked + label { 
+    font-weight: 700; 
+} 
+
+input[type="radio"]:checked + label span { 
+    width: 12px;
+    height: 12px;
+    background-color: #FF0D90; 
+    border: 4px solid #e0e0e0; 
+    
+} 
+
