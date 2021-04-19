@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake-Javascript</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>SNAKE GAME</h1>
+    <div id="niveis">
+        <label for="radios">Escolha um nível: </label>
+        <div>
+            <input type="radio" id="lento" name="radios" value="250" onchange="changeSpeed(value)" checked/>
+            <label for="lento"><span></span>Lento</label>
+        </div>
+        <div>
+            <input type="radio" id="medio" name="radios" value="130" onchange="changeSpeed(value)" />
+            <label for="medio"><span></span>Médio</label>
+        </div>
+        <div>
+            <input type="radio" id="rapido" name="radios" value="80" onchange="changeSpeed(value)" />
+            <label for="rapido"><span></span>Rápido</label>
+        </div>
+    </div>  
+    <div id="pontos">Pontos: 0</div>    
+    <canvas id="snake" width="512" height="512"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
